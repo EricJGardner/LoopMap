@@ -54,17 +54,10 @@ public class NumberLoop {
             sum += num;
         return sum;
     }
-
+//TODO:getProduct
+    //TODO:getLargest
+    //TODO:getSmallest
 }//end NumberLoop
-
-
-    //find the sum of the numbers in list
-//       public static
-//               System.out.println("Now let's see what they all add up to");
-//        for (int i : numList)
-//    sum +=
-
-
 
             //find the product of the numbers in list
            // System.out.println("Wonder what the product of the numbers is?");
