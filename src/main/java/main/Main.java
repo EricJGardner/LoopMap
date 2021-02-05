@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Main {
 
+    private static ArrayList<Integer> numList = new ArrayList<>();
+
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -31,7 +34,7 @@ public class Main {
         System.out.println("Now let's play with your numbers a little bit...");
 
         //store numbers in an array list
-        List<Integer> numList = new ArrayList<>();
+//        List<Integer> numList = new ArrayList<>();
         numList.add(firstNum);
         numList.add(secNum);
         numList.add(thirdNum);
@@ -42,17 +45,12 @@ public class Main {
             System.out.println(i);
         }
 
-        //find the sum of the numbers in list
-       private static getSum() {
-            System.out.println("Now let's see what they all add up to");
-            double sum = 0;
-            for (double num : numList)
-                sum += num;
-            return sum;
-        }
+        System.out.println(NumberLoop.getSum(numList));
+    }//end main()
+
 
          //find the product of the numbers in list
-        private static getProduct() {
+        private double getProduct() {
             System.out.println("Wonder what the product of the numbers is?");
             double product = 1;
             for (double num : numList) {
@@ -63,12 +61,12 @@ public class Main {
 
 
         //find the largest of the numbers in list
-        System.out.println("How about which one is the largest number?");
+//        System.out.println("How about which one is the largest number?");
 
         //find the smallest number in list
-        System.out.println("Finally, which is the smallest?");
+//        System.out.println("Finally, which is the smallest?");
 
 
-    }
+
 
 }
